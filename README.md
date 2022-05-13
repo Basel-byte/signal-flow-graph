@@ -1,5 +1,13 @@
-# Problem statement
+# Signal Flow Graph Web App
 
+## Authors:
+- Zyad Samy Ramadan
+- Basel Ahmed Awad
+- Abdelmoneim Hany Abdelmoneim
+- Ramy Ahmed El Sayed
+- Youssef Ahmed Saeed Zaki
+
+## Problem Statement
 Given nodes and branches of a signal flow graph, The program does the following :
 
 - Draw the signal flow graph showing nodes, branches, gains, …
@@ -12,7 +20,20 @@ Given nodes and branches of a signal flow graph, The program does the following 
 
 
 ---
-# How to use
+## How to run
+### Front End
+  + Clone repository `git clone https://github.com/ZyadSamy/signal-flow-graph.git` 
+  + Move to directory `cd signal-flow-graph`
+  + Install dependencies using terminal `npm install --legacy-peer-deps` 
+  + Run Angular Project using terminal `ng serve -o`
+
+### Back End
+  + Import project as maven project and solve dependencies and run it using a Java IDE
+  + Move to back end directory `cd backend`
+  + Install maven dependencies `mvn install`
+
+---
+## How to use
 
 ![gif](samplerun.gif)
 
